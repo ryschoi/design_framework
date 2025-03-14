@@ -78,10 +78,6 @@ h1 {
   margin-bottom: 55px;
 }
 
-.border {
-  border: 2px solid #222222;
-}
-
 .underline {
   text-decoration: underline;
 }
@@ -115,10 +111,6 @@ h1 {
   object-fit: cover;
 }
 
-#no-underline {
-  text-decoration: none;
-}
-
 .greeting {
   margin-top: 30px;
   font-size: 24px;
@@ -128,10 +120,6 @@ h1 {
 
 .heading {
   margin-bottom: 4px;
-}
-
-#about ul {
-  margin-left: 24px;
 }
 
 .mid-text {
