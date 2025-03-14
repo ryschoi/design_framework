@@ -1,0 +1,5 @@
+Link to site: 
+Styling and customization:
+  • Margins for overall site
+  • Made text color dark gray
+  • Set font and font size

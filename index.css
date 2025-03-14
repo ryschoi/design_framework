@@ -1,0 +1,147 @@
+@font-face {
+  font-family: "hanken-grotesk", sans-serif;
+  src: url('font/HankenGrotesk-Italic-VariableFont_wght.ttf') format('ttf'),
+    url('font/HankenGrotesk-VariableFont_wght.ttf') format('ttf');
+}
+
+:root {
+  font-family: Hanken Grotesk, sans-serif;
+  font-feature-settings: 'liga' 1, 'calt' 1;
+}
+
+.hanken-grotesk-theFont {
+  font-family: "Hanken Grotesk", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  max-width: 650px;
+  margin-bottom: 100px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+
+  /* TEXT */
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #222222;
+}
+
+img {
+  object-fit: contain;
+}
+
+#nav {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: flex-end;
+  margin-top: 80px;
+  margin-bottom: 36px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f73a58;
+}
+
+.green {
+  color: #f73a58;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.gray {
+  color: #767676
+}
+
+h1 {
+  font-size: 62px;
+  line-height: 100px;
+  font-weight: 600;
+  margin-bottom: 55px;
+}
+
+.border {
+  border: 2px solid #222222;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+
+/* ABOUT */
+
+#about {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.circular-container {
+  margin-top: 40px;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.circular-container img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+#no-underline {
+  text-decoration: none;
+}
+
+.greeting {
+  margin-top: 30px;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 600;
+}
+
+.heading {
+  margin-bottom: 4px;
+}
+
+#about ul {
+  margin-left: 24px;
+}
+
+.mid-text {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.subheading {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  margin-top: 44px;
+}
